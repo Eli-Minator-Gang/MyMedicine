@@ -2,13 +2,14 @@
     <string name="app_name">My Medicine</string>
     <string name="action_settings">Settings</string>
     <string name="My_Profile">My Profile</string>
+    <string name="imprint">Imprint</string>
+    <string name="QR_Code">hold your camera at the QR Code</string>
     <string name="Medicine_1">blood pressure blocker</string>
     <string name="Medicine_2">good bones</string>
     <string name="Medicine_3">Athlete’s food</string>
 
     <string name="Medicine_column1_1">Medicine: </string>
     <string name="Medicine_column1_2">Field of application: </string>
-    <string name="Medicine_column1_3">Package insert date: </string>
     <string name="Medicine_column1_4">Changes: </string>
     <string name="Medicine3_column1_4">Side effects: </string>
 
@@ -33,5 +34,9 @@
     <string name="Profile_column2_2">72</string>
     <string name="Profile_column2_3">15th August 1943</string>
     <string name="Profile_column2_4">Example Street 10, 08150 Halle, Germany</string>
+    <string name="Medicine_column1_3">Package insert date:</string>
+
+
+
 
 </resources>

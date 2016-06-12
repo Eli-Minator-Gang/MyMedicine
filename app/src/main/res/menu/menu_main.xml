@@ -3,10 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.wordpress.httpseliminatorgang.mymedicine.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_profile"
         android:orderInCategory="100"
         android:title="@string/My_Profile"
         app:showAsAction="never"
         />
-   //  android:onClick="openNewActivityProfile"
+    <item
+        android:id="@+id/action_imprint"
+        android:orderInCategory="100"
+        android:title="@string/imprint"
+        app:showAsAction="never"
+        />
+
 </menu>
