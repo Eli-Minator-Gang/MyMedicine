@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mi medicina</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="My_Profile">Mi perfil</string>
+    <string name="imprint">Imprimir</string>
+    <string name="QR_Code">mantener su cámara hacia el código QR</string>
+    <string name="Medicine_1">bloqueador de la presión arterial</string>
+    <string name="Medicine_2">buenos huesos</string>
+    <string name="Medicine_3">Anti Fungus</string>
+
+    <string name="Medicine_column1_1">Pie de atleta</string>
+    <string name="Medicine_column1_2">aplicación:</string>
+    <string name="Medicine_column1_3">Paquete insertar fecha:</string>
+    <string name="Medicine_column1_4">cambios:</string>
+    <string name="Medicine3_column1_4">efectos secundarios:</string>
+
+    <string name="Medicine1_column2_2"> disminuye la presión arterial</string>
+    <string name="Medicine1_column2_3"> 1 de enero de, el año 2015</string>
+    <string name="Medicine1_column2_4">nada</string>
+
+    <string name="Medicine2_column2_2">ayuda reumática</string>
+    <string name="Medicine2_column2_3">21 de de marzo de, el año 2016</string>
+    <string name="Medicine2_column2_4">diarrea eliminación de efectos secundarios</string>
+
+    <string name="Medicine3_column2_2">cura hongos en los pies</string>
+    <string name="Medicine3_column2_3"> 19 de de marzo de, el año 2016</string>
+    <string name="Medicine3_column2_4">todo es posible</string>
+
+
+    <string name="Profile_column1_2"> Años:</string>
+    <string name="Profile_column1_3">Geburtsdatum:</string>
+    <string name="Profile_column1_4">Fecha de nacimiento:</string>
+    <string name="Profile_column2_1">Otto Müller</string>
+    <string name="Profile_column2_2">72</string>
+    <string name="Profile_column2_3">15 de de agosto de 1943</string>
+    <string name="Profile_column2_4">Ejemplo Calle 10, 08150 Halle, Alemania</string>
+    <string name="Profile_column1_1">Propietario:</string>
+
+
+</resources>
