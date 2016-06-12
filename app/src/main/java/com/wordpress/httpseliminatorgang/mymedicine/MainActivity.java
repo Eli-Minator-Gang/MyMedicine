@@ -3,7 +3,6 @@ package com.wordpress.httpseliminatorgang.mymedicine;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -54,8 +53,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_profile) {
             startActivity(new Intent(MainActivity.this, MyProfileActivity.class));
+            return true;
+        }
+        if (id == R.id.action_imprint) {
+            startActivity(new Intent(MainActivity.this, ImprintActivity.class));
             return true;
         }
 

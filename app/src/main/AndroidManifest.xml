@@ -38,6 +38,10 @@
             android:name=".MyProfileActivity"
             android:label="@string/app_name">
         </activity>
+        <activity
+            android:name=".ImprintActivity"
+            android:label="@string/app_name">
+        </activity>
     </application>
 
 </manifest>
