@@ -1,5 +1,7 @@
 package com.wordpress.httpseliminatorgang.mymedicine;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -159,9 +161,9 @@ public class QRCodeActivity extends AppCompatActivity {
     };
 
 
-    private void showAlertDialog(String message) {
+    private void showAlertDialog(final String message) {
 
-        new AlertDialog.Builder(this)
+      /*  new AlertDialog.Builder(this)
                 .setTitle(getResources().getString(R.string.app_name))
                 .setCancelable(false)
                 .setMessage(message)
@@ -172,6 +174,34 @@ public class QRCodeActivity extends AppCompatActivity {
                 })
 
                 .show();
-    }
+        */
 
+        if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/blood-pressure-blocker/")) {
+            startActivity(new Intent(QRCodeActivity.this, BloodPressureBlockerActivity.class));
+        } else {
+            if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/good-bones/")) {
+                startActivity(new Intent(QRCodeActivity.this, GoodBonesActivity.class));
+            } else {
+                if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/athlete-s-food/")) {
+                    startActivity(new Intent(QRCodeActivity.this, AthletesFoodActivity.class));
+                } else {
+                    new AlertDialog.Builder(this)
+                            .setTitle(getResources().getString(R.string.app_name))
+                            .setCancelable(false)
+                            .setMessage(message)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(message));
+                                    startActivity(i);
+                                }
+                            })
+
+                            .show();
+                }
+            }
+
+
+        }
+
+    }
 }
