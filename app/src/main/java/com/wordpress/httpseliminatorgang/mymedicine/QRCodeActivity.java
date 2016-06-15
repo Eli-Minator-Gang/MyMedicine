@@ -178,30 +178,31 @@ public class QRCodeActivity extends AppCompatActivity {
 
         if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/blood-pressure-blocker/")) {
             startActivity(new Intent(QRCodeActivity.this, BloodPressureBlockerActivity.class));
-        } else {
-            if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/good-bones/")) {
-                startActivity(new Intent(QRCodeActivity.this, GoodBonesActivity.class));
-            } else {
-                if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/athlete-s-food/")) {
-                    startActivity(new Intent(QRCodeActivity.this, AthletesFoodActivity.class));
-                } else {
-                    new AlertDialog.Builder(this)
-                            .setTitle(getResources().getString(R.string.app_name))
-                            .setCancelable(false)
-                            .setMessage(message)
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(message));
-                                    startActivity(i);
-                                }
-                            })
-
-                            .show();
-                }
-            }
-
-
         }
+            else if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/good-bones/")) {
+                startActivity(new Intent(QRCodeActivity.this, GoodBonesActivity.class));
+            }
+                else if (message.equals("http://mainboardprozessor.jimdo.com/myprofile/athlete-s-food/")) {
+                    startActivity(new Intent(QRCodeActivity.this, AthletesFoodActivity.class));
+                }
+                    else {
+                        new AlertDialog.Builder(this)
+                        .setTitle(getResources().getString(R.string.app_name))
+                        .setCancelable(false)
+                        .setMessage(message)
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(message));
+                                startActivity(i);
+                            }
+                        })
 
+                        .show();
+                    }
     }
 }
+
+
+
+
+
