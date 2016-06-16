@@ -14,7 +14,7 @@
         android:layout_marginTop="15dp"/>
     <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp">
 
@@ -106,7 +106,15 @@
 
     </TableLayout>
 
-
+    <Button
+        android:id="@+id/PlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="read Text"
+        android:background="#f23f3f"
+        android:layout_marginTop="30dp"
+        android:onClick="PlayText3"/>
 
 
 </LinearLayout>
