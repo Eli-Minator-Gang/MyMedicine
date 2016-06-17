@@ -3,7 +3,7 @@
     <string name="action_settings">Einstellungen</string>
     <string name="My_Profile">Mein Profil</string>
     <string name="imprint">Impressum</string>
-    <string name="QR_Code">halte die Kamara auf den QR-Code</string>
+    <string name="QR_Code">Achtung: Bei Android 6 funktioniert bei einigen Geräten die Kamera nicht!!! Um den QR-Code zu scannen brauchst du die Kamera.</string>
     <string name="Medicine_1">Druckweg</string>
     <string name="Medicine_2">Knochenstark</string>
     <string name="Medicine_3">Anti Fungus</string>
@@ -35,5 +35,8 @@
     <string name="Profile_column2_2">72</string>
     <string name="Profile_column2_3">15. August 1943</string>
     <string name="Profile_column2_4">Beispiel Straße 10, 08150 Halle, Deutschland</string>
+    <string name="contact">Kontakt</string>
+    <string name="open_in_browser">Im Browser öffnen</string>
+    <string name="read_text">Text vorlesen</string>
 
 </resources>

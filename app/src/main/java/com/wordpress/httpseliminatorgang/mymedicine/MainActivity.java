@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             // and the user would benefit from additional context for the use of the permission.
             // For example if the user has previously denied the permission.
 
-            Toast.makeText(getApplicationContext(), "Um den QR-Code zu scannen brauchst du die Kamera", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), ("Caution: On Android 6 the camera does not work on some devices!!! To scan the QR code you need the camera."), Toast.LENGTH_LONG).show();
 
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA},
                     REQUEST_CAMERA);
@@ -104,6 +104,10 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_imprint) {
             startActivity(new Intent(MainActivity.this, ImprintActivity.class));
             return true;
+        }
+        if (id == R.id.action_contact) {
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://mainboardprozessor.jimdo.com/contact/"));
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
