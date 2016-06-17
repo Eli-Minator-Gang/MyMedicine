@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -10,37 +11,45 @@
         android:id="@+id/textView0"
         android:layout_gravity="center_horizontal"
         android:textSize="30dp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Legal Disclosure
-
-Information in accordance with section 5 TMG
-
-Cedric Frauendorf
-Murmansker Straße 14
-06130 Halle
-Contact
-
-Telephone: 0345/1201230
-E-Mail: c.frauendorf2000@web.de
-Internetadresse: http://www.elg-halle.de/
-Disclaimer
-
-Accountability for content
-The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
-
-Accountability for links
-Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.
-
-Copyright
-Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law (§ 44a et seq. of the copyright law), every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are allowed only for private use, so must not serve either directly or indirectly for earnings. Unauthorized utilization of copyrighted works is punishable (§ 106 of the copyright law).
-
+        android:text="
+Information in accordance with section 5 TMG\n
+\n
+Cedric Frauendorf\n
+Murmansker Straße 14\n
+06130 Halle\n
+\n
+Contact\n
+\n
+Telephone: 0345/1201230\n
+E-Mail: c.frauendorf2000@web.de\n
+Internetadresse: http://www.elg-halle.de/\n
+Disclaimer\n
+\n
+Accountability for content\n
+The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).\n
+\n
+Accountability for links\n
+Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.\n
+\n
+Copyright\n
+Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law (§ 44a et seq. of the copyright law), every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are allowed only for private use, so must not serve either directly or indirectly for earnings. Unauthorized utilization of copyrighted works is punishable (§ 106 of the copyright law).\n
+\n
 Quelle: Mustervorlagen für das Impressum - muster-vorlagen.net"
-        android:id="@+id/textView9"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/textView9" />
+
+    </ScrollView>
 
 </LinearLayout>
