@@ -35,6 +35,9 @@
     <string name="Profile_column2_3">15 de de agosto de 1943</string>
     <string name="Profile_column2_4">Ejemplo Calle 10, 08150 Halle, Alemania</string>
     <string name="Profile_column1_1">Propietario:</string>
+    <string name="open_in_browser">abierta en el navegador</string>
+    <string name="read_text">la lectura del texto</string>
+    <string name="contact">Contacto</string>
 
 
 </resources>

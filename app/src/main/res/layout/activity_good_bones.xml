@@ -119,7 +119,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="read Text"
+            android:text="@string/read_text"
             android:background="#f23f3f"
 
             android:onClick="PlayText2"/>
@@ -128,7 +128,7 @@
             android:id="@+id/InternetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="open in browser"
+            android:text="@string/open_in_browser"
             android:background="#f23f3f"
             android:layout_marginLeft="20dp"
             android:onClick="OpenBrowser2"/>
