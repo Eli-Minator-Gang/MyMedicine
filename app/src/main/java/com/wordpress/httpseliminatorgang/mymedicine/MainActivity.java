@@ -105,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, ImprintActivity.class));
             return true;
         }
+        if (id == R.id.action_contact) {
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://mainboardprozessor.jimdo.com/contact/"));
+            startActivity(i);
+        }
 
         return super.onOptionsItemSelected(item);
     }
